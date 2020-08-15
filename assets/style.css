@@ -1,6 +1,12 @@
 @font-face {
     font-family: 'main-font';
-    src:  url('./fonts/Rabar_014.ttf')  format('truetype');
+    src:  url('./fonts/Vazir.woff2')  format('woff2');
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        margin-right: 10px !important;
+        margin-left: 0 !important;
+    }
 }
 body{
     font-family: 'main-font';
@@ -9,6 +15,7 @@ body{
 header{
     text-align: center;
     padding: 20px;
+    font-size: 20px;
 }
 .container{
     margin-right: 20%;
@@ -17,13 +24,16 @@ header{
 h1,h2{
     text-decoration: underline;
 }
+h2{
+    font-size: 20px;
+}
 a{
     font-weight: bold;
 }
 p{
     font-size: 18px;
-    line-height: 2;
-    word-spacing: 5px;
+    /* line-height: 2; */
+    /* word-spacing: 5px; */
 }
 .small-p{
     font-size: 16px;
